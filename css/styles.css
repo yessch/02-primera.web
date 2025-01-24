@@ -1,0 +1,75 @@
+.header {
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    height: 0px;
+    background-color: #371c53;
+    font-family: 'math';
+    font-size: x-large;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'math';
+    font-weight: 700;
+    color: #eee6e6;
+    font-size: x-large;
+    background-color: #371c53;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    margin-top: -1%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #bbadc9;
+    padding: 60px;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.Home {
+   height: 100vh;   
+   background-image:url(../images/imagen01.png);
+    background-size: cover;
+    background-position: center;
+    /* color: rgb(12, 10, 10); */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+ 
+.Gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.Gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Gallery img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+}
